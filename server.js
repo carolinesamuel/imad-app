@@ -5,6 +5,16 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleOne={
+  title: 'Article One | Mrs. Caroline Samuel',
+  heading: 'Article One',
+  date: '23 August 2017',
+content: '
+  <p>
+  
+  The clever fox jumps over a lazy dog
+  </p>
+};
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
