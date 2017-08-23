@@ -9,11 +9,11 @@ var articleOne={
   title: 'Article One | Mrs. Caroline Samuel',
   heading: 'Article One',
   date: '23 August 2017',
-content: '  
+content: `
   <p>
   
   The clever fox jumps over a lazy dog
-  </p>
+  </p>`
 };
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
