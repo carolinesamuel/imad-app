@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-var 'article-one':{
+ 'article-one':{
   title: 'Article One | Mrs. Caroline Samuel',
   heading: 'Article One',
   date: '23 August 2017',
@@ -15,10 +15,10 @@ content: `
   
   The clever fox jumps over a lazy dog
   </p>`
-};
+},
 
 
-var 'article-two':{
+ 'article-two':{
   title: 'Article Two | Mrs. Caroline Samuel',
   heading: 'Article Two',
   date: '23 August 2017',
@@ -27,11 +27,11 @@ content: `
   
   Betty bought some butter
   </p>`
-};
+},
 
 
 
-var 'article-three':{
+ 'article-three':{
   title: 'Article Three | Mrs. Caroline Samuel',
   heading: 'Article Three',
   date: '23 August 2017',
@@ -40,7 +40,7 @@ content: `
   
   She sells sea shells
   </p>`
-};
+}};
 
 function createTemplate(data){
   var title = data.title;
