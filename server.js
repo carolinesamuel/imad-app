@@ -18,7 +18,6 @@ content: `
 };
 
 
-
 var 'article-two':{
   title: 'Article Two | Mrs. Caroline Samuel',
   heading: 'Article Two',
