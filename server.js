@@ -9,7 +9,7 @@ var articleOne={
   title: 'Article One | Mrs. Caroline Samuel',
   heading: 'Article One',
   date: '23 August 2017',
-content: '
+content: '  
   <p>
   
   The clever fox jumps over a lazy dog
