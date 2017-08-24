@@ -13,8 +13,8 @@ var articles = {
 content: 
   <p>
   
- ` The clever fox jumps over a lazy dog
-  </p>`
+ ` The clever fox jumps over a lazy dog`
+  </p>
 },
 
  'article-two':{
