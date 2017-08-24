@@ -31,8 +31,8 @@ content: `
   title: 'Article Three | Mrs. Caroline Samuel',
   heading: 'Article Three',
   date: '23 August 2017',
-content: `
-  <p>
+content: 
+ ` <p>
   
   She sells sea shells
   </p>`
