@@ -11,10 +11,9 @@ var articles = {
   heading: 'Article One',
   date: '23 August 2017',
 content: 
-  <p>
-  
- ` The clever fox jumps over a lazy dog`
-  </p>
+  `<p>
+   The clever fox jumps over a lazy dog
+  </p>`
 },
 
  'article-two':{
