@@ -4,7 +4,7 @@ console.log('Loaded!');
 var element = document.getElementById( 'main-text'
 );
 
-element.innerHTML='New Value';
+element.innerHTML='Caroline';
 
 //move the image
 var img=document.getElementById('madi');
