@@ -13,7 +13,7 @@ var marginLeft=0;
 
 function moveRight(){
     marginLeft = marginLeft + 10;
-    img.stlye.marginLeft=marginLeft + 'px';
+    img.stlye.marginLeft = marginLeft + 'px';
 }
 
 img.onclick = function () {
