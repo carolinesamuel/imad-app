@@ -1,24 +1,12 @@
-console.log('Loaded!');
-//
+//counter code
 
-var element = document.getElementById( 'main-text');
+var button=document.getElementById('counter');
 
-element.innerHTML='Caroline';
+var counter = 0;
 
-//move the image
-var img=document.getElementById('madi');
+button.onclick=function(){
 
-var marginLeft=0;
-
-function moveRight(){
-    marginLeft = marginLeft + 5;
-    img.style.marginLeft = marginLeft + 'px';
-}
-
-//var element=document.getElementById('main-text');
-//element.innerHTMl='roses'
-
-img.onclick = function () {
-    var interval = setInterval(moveRight, 50);
- //  img.style.marginLeft = '100px'
+    counter = counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
 };
