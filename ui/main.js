@@ -19,7 +19,7 @@ function moveRight(){
 //var element=document.getElementById('main-text');
 //element.innerHTMl='roses'
 
-img.onclick = function () {
+madi.onclick = function () {
     var interval = setInterval(moveRight, 100);
 //    img.style.marginLeft = '100px'
 };
