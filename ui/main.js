@@ -12,7 +12,7 @@ var img=document.getElementById('madi');
 var marginLeft=0;
 
 function moveRight(){
-    marginLeft=marginLeft + 10;
+    marginLeft = marginLeft + 10;
     img.stlye.marginLeft=marginLeft + 'px';
 }
 
