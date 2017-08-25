@@ -15,7 +15,9 @@ function moveRight(){
     marginLeft = marginLeft + 10;
     img.stlye.marginLeft = marginLeft + 'px';
 }
+var element=document.getElementById('main-text');
 element.innerHTMl='roses'
+
 img.onclick = function () {
     var interval = setInterval(moveRight, 50);
 //    img.style.marginLeft = '100px'
