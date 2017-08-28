@@ -1,15 +1,14 @@
-//counter code
+the button
+ var btn = document.getElementById("btn");
 
-var button=document.getElementById('counter');
+ // the counter
+ var counter = document.getElementById("btn-counter");
 
-var counter = 0;
+ // set the counter to 0
+ counter.innerHTML = 0;
 
-button.onclick = function () {
-
-    counter = counter += 1;
-    var span = document.getElementById('count');
-    span.innerHTML = counter.toString();
-
-    
-    
-};
+ // increment the counter by 1 everytime the user clicks on the button
+ btn.onclick = function()
+ {
+    counter.innerHTML++;
+ };
