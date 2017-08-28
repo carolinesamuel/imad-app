@@ -10,7 +10,7 @@ var counter = 5
  // increment the counter by 1 everytime the user clicks on the button
  button.onclick = function()
  {
-     counter=counter+1
+     counter=counter + 1
      var span = document.getElementById('count')
-    span.innerHTML=counter.toString()
+    span.innerHTML = counter.toString()
  };
