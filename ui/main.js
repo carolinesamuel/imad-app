@@ -2,7 +2,7 @@ the button
  var button = document.getElementById("button");
 
  // the counter
- var counter = document.getElementById("btn-counter");
+ var counter = document.getElementById("button-counter");
 
  // set the counter to 0
  counter.innerHTML = 0;
