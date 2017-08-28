@@ -8,7 +8,7 @@ the button
  counter.innerHTML = 0;
 
  // increment the counter by 1 everytime the user clicks on the button
- btn.onclick = function()
+ button.onclick = function()
  {
     counter.innerHTML++;
  };
