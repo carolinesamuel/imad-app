@@ -1,6 +1,6 @@
 the button
- var button = document.getElementById("button");
-
+ var button = document.getElementById("counter");
+var counter = 0
  // the counter
  var counter = document.getElementById("button-counter");
 
