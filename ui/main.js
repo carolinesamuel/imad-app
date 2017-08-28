@@ -1,5 +1,5 @@
 the button
- var btn = document.getElementById("btn");
+ var button = document.getElementById("button");
 
  // the counter
  var counter = document.getElementById("btn-counter");
